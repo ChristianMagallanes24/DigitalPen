@@ -49,10 +49,7 @@
 }
 
 
-/* Estilos para pantallas de 917px o menos */
-@media screen and (max-width: 917px) {
-    
-  }
+
 
   /* Estilos para pantallas de 609px o menos */
 @media screen and (max-width: 609px) {
@@ -66,17 +63,43 @@
     .img-servicios{
         width: 400px;
     }
+    
   }
   
        /* Estilos para pantallas de 377px o menos */
 @media screen and (max-width: 415px) {
-    .img-servicios{
-        width: 350px;
+    .servicios-container{
+        .redes{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+             .img-servicios{
+                 border-radius: 8px;
+                 width: 350px;
+             }
+             .servicios-informacion{
+                 text-align: center;
+                 width: 350px;
+             }
+         }
+     
+         .web{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             .img-servicios{
+                 border-radius: 8px;
+                 width: 350px;
+             }
+             .servicios-informacion{
+                 text-align: center;
+                 width: 350px;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+             }
+         }
     }
-    .servicios-informacion {
-        width: auto;
-        height: auto;
-        font-size: 14px;
-      }
+  
   }
   
