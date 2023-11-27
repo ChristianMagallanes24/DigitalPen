@@ -68,3 +68,15 @@
     }
   }
   
+       /* Estilos para pantallas de 377px o menos */
+@media screen and (max-width: 415px) {
+    .img-servicios{
+        width: 350px;
+    }
+    .servicios-informacion {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+      }
+  }
+  
