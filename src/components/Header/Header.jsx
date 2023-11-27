@@ -10,7 +10,7 @@ function Header() {
                 <div className="header-informacion">
                     <h1 className="titulo">Somos una agencia digital enfocada en potenciar tu negocio</h1>
                     <p className="informacion">Nuestro objetivo principal es ayudarte a adaptarte a la era digital, lo cual implica mejorar y potenciar tu presencia online para alcanzar tus objetivos</p>
-                    <a className="btn-header" href="https://calendly.com/digitalpen/digitalpen-reserva" target="_blank">Agendar una asesoria gratuita</a>
+                    <a className="btn-header" href="https://calendly.com/digitalpen/digitalpen-reserva">Agendar una asesoria gratuita</a>
                 </div>
 
             </div>
