@@ -97,3 +97,22 @@ $color-black: #000000;
     }
   }
   
+     /* Estilos para pantallas de 503px o menos */
+@media screen and (max-width: 377px) {
+    .header{
+        flex-direction: column;
+        .header-informacion{
+            gap: 5px;
+            width: 300px;
+            margin-bottom: 80px;
+        }
+        .hi{
+            position:relative;
+            top: 9%;
+            right: 15%;
+            height: 100%;
+            width: 100%;
+        }
+    }
+  }
+  
