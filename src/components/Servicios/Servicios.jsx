@@ -6,7 +6,7 @@ function Servicios() {
   return (
     <>
       <div id="servicios" className="servicios-titulo">
-        <h3 className="titulo">nuestros servicios</h3>
+        <h3 className="titulo">⭐nuestros servicios⭐</h3>
       </div>
       <main className="servicios-container">
         <div className="redes">
