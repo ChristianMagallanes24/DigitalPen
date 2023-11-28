@@ -62,7 +62,7 @@ function Footer() {
               Asunto:
               <textarea name="subject" value={formData.subject} onChange={handleChange}></textarea>
             </label>
-            <button type="submit">Enviar</button>
+            <button className='btn-enviar' type="submit">Enviar</button>
           </form>
         </div>
       </div>

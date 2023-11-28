@@ -1,7 +1,7 @@
 import React from 'react';
 import redes from '../../assets/redes.avif';
 import web from '../../assets/web.avif';
-
+import elegir from "../../assets/f.png";
 function Servicios() {
   return (
     <>
@@ -37,6 +37,14 @@ function Servicios() {
       </main>
       <div className="otros-servicios">
         <h3>Tus ideas las hacemos realidad!</h3>
+
+      </div>
+      <div className="porQueElegirnos">
+      <img
+              src={elegir}
+              alt="DigitalPen Logo"
+              className="elegir"
+            />
       </div>
     </>
   );
