@@ -1,11 +1,19 @@
 import NavBar from "../Nav/Nav";
+import robot from "../../assets/asistente-robot.gif";
 
 function Header() {
     return (
         <>
             <NavBar />
             <div id="inicio" className="header">
+
                 <div className="hi">
+                    <img
+                        src={robot}
+                        alt="DigitalPen Logo"
+                        className="robot"
+                    />
+
                 </div>
                 <div className="header-informacion">
                     <h1 className="titulo">Somos una agencia digital enfocada en potenciar tu negocio</h1>

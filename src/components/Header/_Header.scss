@@ -3,8 +3,7 @@ $color-black: #000000;
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     height: 100vh;
     background-color: rgb(253, 252, 252);
     
@@ -14,7 +13,7 @@ $color-black: #000000;
         gap: 20px;
         flex-direction: column;
         align-items: center;
-        width: 800px;
+       
         
         .titulo {
             color: $color-black;
@@ -39,15 +38,7 @@ $color-black: #000000;
             }
         }
     }
-    .hi{
-        position: relative;
-        top: 20%;
-        height: 100%;
-        width: 500px;
-        margin-bottom: auto;
-        background-repeat: no-repeat;
-        background-image: url(../../assets/asistente-robot.gif);
-    }
+    
 }
 .header-bottom{
     text-align: center;
@@ -62,15 +53,16 @@ $color-black: #000000;
 @media screen and (max-width: 917px) {
     .header{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         .header-informacion{
             gap: 5px;
             width: 600px;
             margin-bottom: 80px;
         }
+       
     }
-    .hi{
-        margin-bottom: 15%;
-    }
+   
   }
 
   /* Estilos para pantallas de 609px o menos */
@@ -82,32 +74,29 @@ $color-black: #000000;
             width: 500px;
             margin-bottom: 80px;
         }
-        .hi{
-            position:relative;
-            top: 15%;
-            background-position: center;
-            margin-bottom: 15%;
-        }
+       
     }
   }
 
    /* Estilos para pantallas de 503px o menos */
 @media screen and (max-width: 503px) {
     .header{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         .header-informacion{
             gap: 5px;
-            width: 400px;
+            width: 350px;
             margin-bottom: 80px;
         }
-        .hi{
-            position:relative;
-            top: 9%;
-            height: 100%;
+       .hi{
+       
+       height: 300px;
+        
+        .robot{
             width: 100%;
-            background-position: center;
-            margin-bottom: 15%;
-        }
+           }
+       }
     }
   }
   
@@ -121,14 +110,7 @@ $color-black: #000000;
             width: 300px;
             margin-bottom: 80px;
         }
-        .hi{
-            position:relative;
-            top: 9%;
-            height: 100%;
-            width: 100%;
-            background-position: center;
-            margin-bottom: 25%;
-        }
+       
     }
     h2{
         font-size: 20px;
