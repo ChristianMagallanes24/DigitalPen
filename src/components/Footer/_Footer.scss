@@ -11,7 +11,9 @@
       margin-bottom: 20px;
     }
   
-    form {
+    .form {
+     
+     
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -26,7 +28,7 @@
   
         input,
         textarea {
-          width: 40%;
+          width: 90%;
           padding: 10px;
           margin-top: 5px;
           border: 1px solid #fff;
@@ -44,10 +46,12 @@
         background-color: #000000;
         color: #ffffff;
         padding: 10px 20px;
+        font-size: 20px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
+        font-family: 'Koulen', sans-serif;
   
         &:hover {
           background-color: #ffffff;
@@ -59,3 +63,36 @@
     }
   }
   
+
+
+
+  /* Estilos para pantallas de 917px o menos */
+@media screen and (max-width: 917px) {
+  .input{
+    width: 100%;
+  }
+}
+
+/* Estilos para pantallas de 609px o menos */
+@media screen and (max-width: 609px) {
+  textarea {
+    width: 80%;
+
+  }
+}
+
+ /* Estilos para pantallas de 503px o menos */
+@media screen and (max-width: 503px) {
+  textarea {
+    width: 80%;
+
+  }
+}
+
+   /* Estilos para pantallas de 503px o menos */
+@media screen and (max-width: 377px) {
+  textarea {
+    width: 80%;
+
+  }
+}

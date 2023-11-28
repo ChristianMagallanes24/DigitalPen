@@ -7,6 +7,7 @@ $color-black: #000000;
     align-items: center;
     height: 100vh;
     background-color: rgb(253, 252, 252);
+    
     .header-informacion {
         
         display: flex;
@@ -17,16 +18,20 @@ $color-black: #000000;
         
         .titulo {
             color: $color-black;
+            font-family: 'Cabin', sans-serif;
         }
         .informacion {
             color: $color-black;
+            font-family: 'Cabin', sans-serif;
         }
         .btn-header {
             background-color: #000000;
             color: #fff;
-            padding: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
             border-radius: 15px;
             text-decoration: none;
+            font-family: 'Koulen', sans-serif;
             &:hover{
                 cursor: pointer;
                 color: #fff;
@@ -49,6 +54,7 @@ $color-black: #000000;
     background-color: #000000;
     color: #fff;
     padding: 10px;
+    font-family: 'Cabin', sans-serif;
 }
 
 
@@ -123,6 +129,9 @@ $color-black: #000000;
             background-position: center;
             margin-bottom: 25%;
         }
+    }
+    h2{
+        font-size: 20px;
     }
   }
   

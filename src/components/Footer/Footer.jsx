@@ -41,14 +41,14 @@ function Footer() {
       <div id='contacto' className="footer">
         <div>
           <h3>Envíanos un correo y resolveremos todas tus dudas!</h3>
-          <form onSubmit={handleSubmit}>
+          <form className='form' onSubmit={handleSubmit}>
             <label>
               Nombre:
               <input type="text" name="name" value={formData.name} onChange={handleChange} />
             </label>
             <label>
               Apellido:
-              <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
+              <input className='input' type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
             </label>
             <label>
               Correo Electrónico:
