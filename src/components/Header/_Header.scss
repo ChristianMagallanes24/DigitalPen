@@ -31,10 +31,12 @@ $color-black: #000000;
             border-radius: 15px;
             text-decoration: none;
             font-family: 'Koulen', sans-serif;
+            transition: .2s;
             &:hover{
                 cursor: pointer;
                 color: #fff;
-                background-color:#ffbb00;
+                background-color:#008cff;
+                transition: .2s;
             }
         }
     }
