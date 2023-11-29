@@ -1,10 +1,14 @@
 import React from 'react';
 import redes from '../../assets/redes.avif';
 import web from '../../assets/web.avif';
+import test from '../../assets/mockup.png';
 
 function Servicios() {
   return (
     <>
+    <div className='test'>
+    <img className="test-img" src={test} alt="Diseño web" />
+    </div>
       <div id="servicios" className="servicios-titulo">
         <h3 className="titulo">⭐nuestros servicios⭐</h3>
       </div>
@@ -37,9 +41,22 @@ function Servicios() {
       </main>
       <div className="otros-servicios">
         <h3>Tus ideas las hacemos realidad!</h3>
-
       </div>
-    
+      <div className='elegirnos-container'>
+        <h2>por que elegirnos?</h2>
+
+        <div className='cards-container'>
+          <div className='card'>
+
+          </div>
+          <div className='card'>
+
+          </div>
+          <div className='card'>
+
+          </div>
+        </div>
+      </div>
     </>
   );
 }

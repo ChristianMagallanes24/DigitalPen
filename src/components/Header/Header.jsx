@@ -23,7 +23,7 @@ function Header() {
 
             </div>
             <div className="header-bottom">
-                <h2>Hacemos crecer tu negocio digital🤳</h2>
+                <h2 className="tit">Hacemos crecer tu negocio🤳</h2>
             </div>
         </>
     )
