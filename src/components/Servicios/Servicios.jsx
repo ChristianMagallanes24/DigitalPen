@@ -1,6 +1,5 @@
 import React from 'react';
-import redes from '../../assets/redes.avif';
-import web from '../../assets/web.avif';
+
 import test from '../../assets/mockup.png';
 
 function Servicios() {
@@ -9,34 +8,41 @@ function Servicios() {
     <div className='test'>
     <img className="test-img" src={test} alt="Diseño web" />
     </div>
+
       <div id="servicios" className="servicios-titulo">
         <h3 className="titulo">⭐nuestros servicios⭐</h3>
       </div>
       <main className="servicios-container">
-        <div className="redes">
-          <img className="img-servicios" src={redes} alt="Diseño web" />
+        <div className="card-servicio">
+          
           <div className="servicios-informacion">
-            <h3>Diseño web</h3>
+            <h3>Desarrollo de Aplicaciones Web Personalizadas</h3>
             <p>
-              Construimos comunidades digitales sólidas y comprometidas. Desde
-              estrategias de contenido hasta la gestión diaria, aseguramos que
-              tu marca destaque en plataformas como Facebook, Instagram, TikTok,
-              entre otras.
+              Impulsa tu presencia en línea con nuestras aplicaciones web personalizadas. Desarrollamos soluciones a medida que se adaptan a tus necesidades específicas. Desde sistemas de gestión de contenido (CMS) hasta plataformas de comercio electrónico, nuestro equipo experto combina tecnologías de vanguardia con un diseño funcional para ofrecer aplicaciones web robustas, seguras y eficientes que potencian tu negocio.
             </p>
           </div>
         </div>
 
-        <div className="web">
-          <img className="img-servicios" src={web} alt="Desarrollo web" />
+        <div className="card-servicio">
+          
           <div className="servicios-informacion">
-            <h3>Desarrollo web</h3>
+            <h3>Diseño Web Responsivo</h3>
             <p>
-              Construimos comunidades digitales sólidas y comprometidas. Desde
-              estrategias de contenido hasta la gestión diaria, aseguramos que
-              tu marca destaque en plataformas como Facebook, Instagram, TikTok,
-              entre otras.
+            Transformamos tus ideas en experiencias digitales impactantes. Nuestro servicio de diseño web responsivo garantiza que tu sitio sea accesible y visualmente atractivo en cualquier dispositivo, desde computadoras de escritorio hasta smartphones y tabletas. Con un enfoque centrado en el usuario, creamos interfaces intuitivas y atractivas para mejorar la experiencia del usuario y maximizar la retención.
             </p>
           </div>
+          
+        </div>
+
+        <div className="card-servicio">
+          
+          <div className="servicios-informacion">
+            <h3>Optimización de Rendimiento Web</h3>
+            <p>
+            Haz que tu sitio web alcance su máximo potencial con nuestro servicio de optimización de rendimiento web. Nos especializamos en acelerar la velocidad de carga, mejorar el tiempo de respuesta del servidor y optimizar los recursos para una experiencia de usuario más rápida y eficiente. Desde la compresión de imágenes hasta la implementación de técnicas avanzadas de almacenamiento en caché, trabajamos para garantizar que tu sitio web funcione de manera óptima, mejore la retención de usuarios y aumente la satisfacción del cliente.
+            </p>
+          </div>
+          
         </div>
       </main>
       <div className="otros-servicios">
