@@ -78,12 +78,32 @@
 
   /* Estilos para pantallas de 609px o menos */
 @media screen and (max-width: 609px) {
-    
+    .servicios-container{
+        .card-servicio{
+           width: 100%;
+           
+             .servicios-informacion{
+                 text-align: center;
+                 width: 100%;
+             }
+         }
+     
+    }
   }
 
    /* Estilos para pantallas de 503px o menos */
 @media screen and (max-width: 503px) {
-   
+    .servicios-container{
+        .card-servicio{
+           width: 100%;
+           
+             .servicios-informacion{
+                 text-align: center;
+                 width: 100%;
+             }
+         }
+     
+    }
     
   }
   
@@ -93,31 +113,15 @@
     font-size: 20px;
    }
     .servicios-container{
-        .redes{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+        .card-servicio{
+           width: 100%;
            
              .servicios-informacion{
                  text-align: center;
-                 width: 350px;
+                 width: 100%;
              }
          }
      
-         .card-servicio{
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-          
-             
-             .servicios-informacion{
-                 text-align: center;
-                 width: 350px;
-                 display: flex;
-                 flex-direction: column;
-                 justify-content: center;
-             }
-         }
     }
  
   }
