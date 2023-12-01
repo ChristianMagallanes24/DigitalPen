@@ -5,7 +5,7 @@ $color-black: #000000;
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    background-color: rgb(253, 252, 252);
+    background-color: #121624;
     
     .header-informacion {
         
@@ -16,15 +16,15 @@ $color-black: #000000;
        
         
         .titulo {
-            color: $color-black;
+            color: #fff;
             font-family: 'Cabin', sans-serif;
         }
         .informacion {
-            color: $color-black;
+            color: #fff;
             font-family: 'Cabin', sans-serif;
         }
         .btn-header {
-            background-color: #267888;
+            background-color: #121624;
             color: #fff;
             padding: 10px 20px;
             font-size: 20px;
@@ -35,7 +35,7 @@ $color-black: #000000;
             &:hover{
                 cursor: pointer;
                 color: #fff;
-                background-color:#1b5763;
+                background-color:#1c2a5c;
                 transition: .2s;
             }
         }
@@ -64,6 +64,7 @@ $color-black: #000000;
   /* Estilos para pantallas de 609px o menos */
 @media screen and (max-width: 609px) {
     .header{
+       
         flex-direction: column;
         .header-informacion{
             gap: 5px;
@@ -87,7 +88,7 @@ $color-black: #000000;
         }
        .hi{
        
-       height: 300px;
+       width: 300px;
         
         .robot{
             width: 100%;
@@ -100,7 +101,9 @@ $color-black: #000000;
 @media screen and (max-width: 377px) {
     .header{
         flex-direction: column;
-        
+        .hi{
+            width: 250px;
+        }
         .header-informacion{
             gap: 5px;
             width: 300px;

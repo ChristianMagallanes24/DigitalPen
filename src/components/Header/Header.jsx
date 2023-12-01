@@ -1,5 +1,5 @@
 import NavBar from "../Nav/Nav";
-import robot from "../../assets/asistente-robot.gif";
+import robot from "../../assets/xd.gif";
 
 function Header() {
     return (
