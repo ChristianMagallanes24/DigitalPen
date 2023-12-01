@@ -17,12 +17,12 @@
 
     .card-servicio{
        padding: 20px;
-       margin: 10px 100px;
+       margin: 10px ;
        border-radius: 8px;
         background-color: #ffffff;
         box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
-       width: 60%;
-       height: 100%;
+       width: 50%;
+      
         .servicios-informacion{
             text-align: center;
             align-items: center;
@@ -31,6 +31,8 @@
             font-family: 'Cabin', sans-serif;
             .serv-titulo{
                 color: #3460ff;
+                font-family: 'Koulen', sans-serif;
+                
             }
            
         }
@@ -44,15 +46,7 @@
     }
 }
 
-.otros-servicios{
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    background-color: $color-primario;
-    font-family: 'Cabin', sans-serif;
 
-    
-}
 .elegirnos-container{
     
     background-color: #000818;
@@ -86,7 +80,6 @@
 .test{
     width: 100%;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     background-color: $color-primario;

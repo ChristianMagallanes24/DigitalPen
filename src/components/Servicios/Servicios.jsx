@@ -38,7 +38,7 @@ function Servicios() {
               <img className="serv-logo" src={res} alt="Diseño web" />
             </div>
             <div>
-              <h3 className='serv-titulo'>Diseño Web Responsivo</h3>
+              <h3 className='serv-titulo'>Web Responsive</h3>
               <p>
                 Transformamos tus ideas en experiencias digitales impactantes. Nuestro servicio de diseño web responsivo garantiza que tu sitio sea accesible y visualmente atractivo en cualquier dispositivo, desde computadoras de escritorio hasta smartphones y tabletas. Con un enfoque centrado en el usuario, creamos interfaces intuitivas y atractivas para mejorar la experiencia del usuario y maximizar la retención.
               </p>
@@ -54,7 +54,7 @@ function Servicios() {
               <img className="serv-logo" src={opt} alt="Diseño web" />
             </div>
             <div>
-              <h3 className='serv-titulo'>Optimización de Rendimiento Web</h3>
+              <h3 className='serv-titulo'>Optimizacion de Rendimiento Web</h3>
               <p>
                 Haz que tu sitio web alcance su máximo potencial con nuestro servicio de optimización de rendimiento web. Nos especializamos en acelerar la velocidad de carga, mejorar el tiempo de respuesta del servidor y optimizar los recursos para una experiencia de usuario más rápida y eficiente. Desde la compresión de imágenes hasta la implementación de técnicas avanzadas de almacenamiento en caché, trabajamos para garantizar que tu sitio web funcione de manera óptima, mejore la retención de usuarios y aumente la satisfacción del cliente.
               </p>
@@ -81,7 +81,7 @@ function Servicios() {
             </div>
           </div>
 
-          <div className='cardss'>
+         <div className='cardss'>
             <div className='card'>
 
             </div>

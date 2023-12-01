@@ -20,10 +20,8 @@ function App() {
       <Header />
       <Servicios />
       <Footer />
-
       {/* Botón flotante para abrir y cerrar el chat */}
       <FloatingChatButton isChatOpen={isChatOpen} onToggleChat={handleToggleChat} />
-      
       {/* Renderizar el ChatApp si está abierto */}
       {isChatOpen && <ChatApp onClose={handleToggleChat} />}
     </div>
