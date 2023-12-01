@@ -73,20 +73,62 @@ function Servicios() {
         <div className='cards-container'>
 
           <div className='cardss'>
-            <div className='card'>
 
+
+            <div className='card'>
+            <div>
+            img1
             </div>
-            <div className='card'>
+            <div>
+              <h3>Experiencia y Profesionalismo:</h3>
+              <p>DigitalPen cuenta con un equipo altamente calificado y con amplia experiencia en el desarrollo web. Nuestros profesionales están actualizados con las últimas tendencias tecnológicas y metodologías de desarrollo, lo que garantiza la entrega de productos de alta calidad.</p>
+            </div>
+            </div>
 
+
+            <div className='card'>
+            <div>
+            img1
+            </div>
+            <div>
+              <h3>
+              Enfoque Personalizado: 
+              </h3>
+              <p>
+              ntendemos que cada empresa es única, por lo que ofrecemos soluciones personalizadas para satisfacer las necesidades específicas de nuestros clientes. Trabajamos de cerca con cada cliente para comprender sus objetivos y diseñar soluciones web que impulsen su crecimiento y éxito en línea.
+              </p>
+            </div>
             </div>
           </div>
 
          <div className='cardss'>
             <div className='card'>
-
+            <div>
+            img2
             </div>
-            <div className='card'>
+            <div>
+              <h3>
+              Tecnología Innovadora:
+              </h3>
+              <p>
+              En DigitalPen, nos mantenemos a la vanguardia de la tecnología. Utilizamos las últimas herramientas y tecnologías de desarrollo web para asegurarnos de que los sitios web que creamos sean modernos, rápidos, seguros y completamente funcionales. Esto garantiza una experiencia óptima para los usuarios finales.
+              </p>
+            </div>
+            </div>
 
+
+            <div className='card'>
+            <div>
+           img3
+            </div>
+            <div>
+              <h3>
+              Compromiso con la Calidad: 
+              </h3>
+              <p>
+              La calidad es una prioridad en cada etapa del desarrollo. Realizamos pruebas exhaustivas para garantizar que los sitios web sean robustos, seguros y cumplan con los estándares de rendimiento. Nos esforzamos por entregar productos finales que no solo satisfacen, sino que superan las expectativas de nuestros clientes.
+              </p>
+            </div>
             </div>
           </div>
 
