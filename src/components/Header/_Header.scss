@@ -4,7 +4,7 @@ $color-black: #000000;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+   
     background-color: #121624;
     
     .header-informacion {
@@ -58,7 +58,12 @@ $color-black: #000000;
         }
        
     }
-   
+    .hi{
+        width: 400px;
+        .robot{
+            width: 100%;
+        }
+       }
   }
 
   /* Estilos para pantallas de 609px o menos */
@@ -73,6 +78,12 @@ $color-black: #000000;
         }
        
     }
+    .hi{
+        width: 300px;
+        .robot{
+            width: 100%;
+        }
+       }
   }
 
    /* Estilos para pantallas de 503px o menos */
