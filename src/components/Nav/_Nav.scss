@@ -1,4 +1,4 @@
-$color-primario: rgb(2, 131, 252);
+$color-primario: #ffffff;
 .logo-img{
     width: 80px;
     border-radius: 8px;
@@ -19,7 +19,7 @@ $color-primario: rgb(2, 131, 252);
     
 }
 .nav.scrolled {
-    background-color: $color-primario;
+    background-color: #121624;
     transition: background-color 1s ease-in-out;
    
     .logo-img{

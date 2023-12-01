@@ -22,9 +22,7 @@ function Header() {
                 </div>
 
             </div>
-            <div className="header-bottom">
-                <h2 className="tit">Hacemos crecer tu negocio🤳</h2>
-            </div>
+            
         </>
     )
 }
