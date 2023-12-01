@@ -1,12 +1,12 @@
-// ChatApp.jsx
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
+import { v4 as uuidv4 } from "uuid"; // Importar la función v4 de la biblioteca uuid
 import "./Servicios/Chat.css";
 
 const ChatApp = () => {
   const chatboxRef = useRef(null);
   const messageInputRef = useRef(null);
   const [receiving, setReceiving] = useState(false);
-  const chatId = useRef(crypto.randomUUID());
+  const chatId = useRef(uuidv4()); // Generar un identificador único usando uuidv4
 
   const systemPrompt =
     "You are a persuasive web development services bot that provides advice on web development services and tries to convince the user why they should purchase your web development services.";
