@@ -30,13 +30,13 @@
   /* Estilos para el área de entrada de mensajes */
   .message-input {
     display: flex;
-    padding: 7px;
+    padding: 5px;
   }
   
   /* Estilos para el campo de entrada de mensajes */
   .message-input-field {
     flex-grow: 1;
-    padding: 8px;
+    padding: 5px;
     margin-right: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -58,7 +58,7 @@
     margin-bottom: 8px;
     padding: 8px;
     border-radius: 4px;
-    max-width: 70%; /* Ajusta el ancho máximo del mensaje */
+    max-width: 100%; /* Ajusta el ancho máximo del mensaje */
   }
   
   /* Estilos para mensajes alineados a la derecha */
