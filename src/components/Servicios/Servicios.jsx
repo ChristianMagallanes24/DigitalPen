@@ -3,7 +3,7 @@ import res from '../../assets/monitor.gif';
 import opt from '../../assets/configuracion.gif';
 import des from '../../assets/sensible.gif';
 import test from '../../assets/mockup.png';
-
+import equipo from '../../assets/equipo.png';
 function Servicios() {
   return (
     <>
@@ -11,9 +11,7 @@ function Servicios() {
     <img className="test-img" src={test} alt="Diseño web" />
     </div>
 
-      <div  className="servicios-titulo">
-        <h3 className="titulo">⭐nuestros servicios⭐</h3>
-      </div>
+
       <main className="servicios-container">
 
 
@@ -68,9 +66,7 @@ function Servicios() {
     
 
       </main>
-      <div className="otros-servicios">
-        <h3>Tus ideas las hacemos realidad!</h3>
-      </div>
+      
       <div className='elegirnos-container'>
         <h2>por que elegirnos?</h2>
 
@@ -86,6 +82,9 @@ function Servicios() {
           </div>
         </div>
       </div>
+      <div id="servicios" className='test'>
+    <img className="test-img" src={equipo} alt="Diseño web" />
+    </div>
     </>
   );
 }
