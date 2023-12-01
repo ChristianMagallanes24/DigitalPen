@@ -1,0 +1,94 @@
+/* Flot.css */
+
+.floating-chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .btn-chat {
+    background-color: #ffffff00;
+    border: none;
+    color: #f10000;
+    cursor: pointer;
+    .btn-icon{
+      height: 70px;
+      border-radius: 50%;
+      border: solid rgb(0, 241, 0);
+    }
+    .btn-ico{
+      height: 70px;
+      border-radius: 50%;
+      border: solid rgb(241, 0, 0);
+    }
+  }
+  
+
+
+  /* Estilos para pantallas de 917px o menos */
+@media screen and (max-width: 917px) {
+ 
+ 
+}
+
+/* Estilos para pantallas de 609px o menos */
+@media screen and (max-width: 609px) {
+  .btn-chat {
+    background-color: #ffffff00;
+    border: none;
+    color: #f10000;
+    cursor: pointer;
+    .btn-icon{
+      height: 70px;
+      border-radius: 50%;
+      border: solid rgb(0, 241, 0);
+    }
+    .btn-ico{
+      height: 70px;
+      border-radius: 50%;
+      border: solid rgb(241, 0, 0);
+    }
+  }
+}
+
+ /* Estilos para pantallas de 503px o menos */
+@media screen and (max-width: 503px) {
+  .btn-chat {
+    background-color: #ffffff00;
+    border: none;
+    color: #f10000;
+    cursor: pointer;
+    .btn-icon{
+      height: 60px;
+      border-radius: 50%;
+      border: solid rgb(0, 241, 0);
+    }
+    .btn-ico{
+      height: 60px;
+      border-radius: 50%;
+      border: solid rgb(241, 0, 0);
+    }
+  }
+}
+
+   /* Estilos para pantallas de 503px o menos */
+@media screen and (max-width: 377px) {
+  .btn-chat {
+    background-color: #ffffff00;
+    border: none;
+    color: #f10000;
+    cursor: pointer;
+    .btn-icon{
+      height: 60px;
+      border-radius: 50%;
+      border: solid rgb(0, 241, 0);
+    }
+    .btn-ico{
+      height: 60px;
+      border-radius: 50%;
+      border: solid rgb(241, 0, 0);
+    }
+  }
+}
+
+  

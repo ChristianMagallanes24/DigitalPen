@@ -11,25 +11,35 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
     
-    padding: 10px;
+    
+    padding: 5px;
 
     .card-servicio{
        padding: 20px;
-       
-        background-color: #076330b9;
+       margin: 10px 100px;
+       border-radius: 8px;
+        background-color: #ffffff;
         box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
-       
+       width: 60%;
+       height: 100%;
         .servicios-informacion{
             text-align: center;
-            width: 400px;
+            align-items: center;
             display: flex;
-            color: #fff;
-            flex-direction: column;
-            
+            color: #000000;
             font-family: 'Cabin', sans-serif;
+            .serv-titulo{
+                color: $color-primario;
+            }
            
+        }
+        .servicio-logo{
+            width: 30%;
+            height: 100%;
+            .serv-logo{
+                height: 100px;
+            }
         }
     }
 }
@@ -45,7 +55,7 @@
 }
 .elegirnos-container{
     height: 600px;
-    background-color: #5271ff;
+    background-color: #f3efef;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -77,12 +87,14 @@
 }
 
   /* Estilos para pantallas de 609px o menos */
-@media screen and (max-width: 609px) {
+@media screen and (max-width: 1200px) {
     .servicios-container{
         .card-servicio{
+            margin: 20px;
            width: 100%;
            
              .servicios-informacion{
+                flex-direction: column;
                  text-align: center;
                  width: 100%;
              }
