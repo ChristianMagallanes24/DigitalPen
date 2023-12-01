@@ -7,11 +7,11 @@ import test from '../../assets/mockup.png';
 function Servicios() {
   return (
     <>
-    <div className='test'>
+    <div id="servicios" className='test'>
     <img className="test-img" src={test} alt="Diseño web" />
     </div>
 
-      <div id="servicios" className="servicios-titulo">
+      <div  className="servicios-titulo">
         <h3 className="titulo">⭐nuestros servicios⭐</h3>
       </div>
       <main className="servicios-container">
