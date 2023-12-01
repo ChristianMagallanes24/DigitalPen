@@ -4,9 +4,13 @@ $color-black: #000000;
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
-    background-color: #121624;
-    
+    background-color: #000818;
+    height: 600px;
+   .robot{
+    width: 500px;
+    border-radius: 60%;
+    box-shadow:#001018 0px 0px 50px 5px ;
+   }
     .header-informacion {
         
         display: flex;
@@ -60,8 +64,10 @@ $color-black: #000000;
     }
     .hi{
         width: 400px;
+        border-radius: 50%;
         .robot{
             width: 100%;
+            border-radius: 50%;
         }
        }
   }

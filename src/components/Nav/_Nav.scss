@@ -5,12 +5,14 @@ $color-primario: #ffffff;
     border: solid;
 }
 .nav{
-    background-color: #fff;
+    background-color: #000818;
     font-family: 'Koulen', sans-serif;
     text-transform: uppercase;
     transition: background-color 1s ease-in-out; 
     font-size: 20px;
-    color: #000;
+    .nav-link{
+        color: #fff;
+    }
 }
 .navbar-toggler{
     color: #000000;
@@ -19,7 +21,7 @@ $color-primario: #ffffff;
     
 }
 .nav.scrolled {
-    background-color: #121624;
+    background-color: #000818be;
     transition: background-color 1s ease-in-out;
    
     .logo-img{
