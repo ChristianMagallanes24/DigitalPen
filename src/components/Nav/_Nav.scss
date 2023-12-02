@@ -8,7 +8,7 @@ $color-primario: #ffffff;
     background-color: #000818;
     font-family: 'Koulen', sans-serif;
     text-transform: uppercase;
-    transition: background-color 1s ease-in-out; 
+    
     font-size: 20px;
     .nav-link{
         color: #fff;
@@ -22,7 +22,7 @@ $color-primario: #ffffff;
 }
 .nav.scrolled {
     background-color: #000818be;
-    transition: background-color 1s ease-in-out;
+    transition: background-color .5s ease-in-out;
    
     .logo-img{
         border-radius: 8px;
