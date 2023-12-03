@@ -4,76 +4,76 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: #000818;
+    
   }
   
   .precios-card {
     background-color: #fff;
     width: 300px;
-    height: 400px;
+   padding: 10px;
     margin: 15px;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(238, 235, 235);
     transition: box-shadow 0.3s, transform 0.3s;
+    
     position: relative; /* Añadido para posicionar los elementos hijos */
   
     &:hover {
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+     
       transform: scale(1.1) rotate(1deg);
+      
+     
     }
+    
   
     .precios-card-title {
-      padding: 20px;
+      padding: 2px;
       text-align: center;
-      font-size: 24px;
+      font-size: 28px;
       font-weight: bold;
       color: #333;
     }
   
     .precios-card-price {
       text-align: center;
-      font-size: 18px;
+      font-size: 28px;
       font-weight: bold;
       color: #007bff;
     }
   
     .precios-card-features {
-      padding: 0 20px;
+      padding: 0 0px;
       display: flex;
       flex-direction: column;
-      align-items: center;
+     
   
       .precios-feature {
-        padding: 10px 0;
-        font-size: 14px;
+        padding: 0px 0;
+        font-size: 20px;
         color: #777;
-        text-align: center;
+       
       }
     }
-  
-    .precios-button-container {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
-      text-align: center;
-  
-      .precios-button {
+    .precios-button {
         background-color: #f76c40;
         color: #ffffff;
         padding: 5px 10px;
+        margin-top: 15px;
         font-size: 20px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
         font-family: 'Koulen', sans-serif;
-  
-        &:hover {
-          background-color: #ffffff;
-          color: #000;
-          border-bottom: solid;
-          border-radius: 0;
+        &:hover{
+            cursor: pointer;
+            color: #fff;
+            background-color:#f76c40;
+            transition: .2s;
+            filter: drop-shadow(-10px 10px 5px #ffffff);
         }
-      }
+        }
+    
     }
-  }
   
+   

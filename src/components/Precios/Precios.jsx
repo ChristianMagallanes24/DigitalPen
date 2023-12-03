@@ -1,24 +1,25 @@
 // Precios.js
+
 import React from 'react';
 
 const Precios = () => {
   const planes = [
     {
-      title: 'Plan Básico',
-      price: '$499',
-      features: ['Diseño Responsivo', '3 Páginas', 'Dominio Personalizado'],
+      title: 'Landig page',
+      price: '$500',
+      features: ['✅ Diseño Responsivo', '✅ Hosting','✅ Dominio Personalizado', 'Hosting Incluido','✅ 1 Pagina'],
       buttonLabel: 'Seleccionar',
     },
     {
       title: 'Plan Estándar',
-      price: '$799',
-      features: ['Diseño Responsivo', '5 Páginas', 'Dominio Personalizado', 'Hosting Incluido'],
+      price: '$800',
+      features: ['✅ Diseño Responsivo','✅ Hosting','✅ Dominio Personalizado', 'Hosting Incluido','✅ 5 Paginas'],
       buttonLabel: 'Seleccionar',
     },
     {
-      title: 'Plan Premium',
-      price: '$1299',
-      features: ['Diseño Responsivo', 'Páginas Ilimitadas', 'Dominio Premium', 'Hosting Premium'],
+      title: 'Tienda online',
+      price: '$1200',
+      features: ['✅ Diseño Responsivo', '✅ Hosting','✅ Dominio Personalizado', 'Hosting Incluido','✅ Catalogo de productos'],
       buttonLabel: 'Seleccionar',
     },
   ];
@@ -38,10 +39,10 @@ const Precios = () => {
                 {feature}
               </div>
             ))}
-          </div>
-          <div className="precios-button-container">
+         
+          
             <button className="precios-button">{plan.buttonLabel}</button>
-          </div>
+            </div>
         </div>
       ))}
     </div>
