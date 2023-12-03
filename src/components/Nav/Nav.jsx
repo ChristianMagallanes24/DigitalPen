@@ -11,7 +11,7 @@ function NavBar() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      setScrolling(scrollTop > 0);
+      setScrolling(scrollTop > 5);
     };
 
     window.addEventListener('scroll', handleScroll);
