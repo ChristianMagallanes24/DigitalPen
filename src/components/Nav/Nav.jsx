@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -6,12 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from "../../assets/logo.png";
 
 function NavBar() {
-  const [scrolling, setScrolling] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      setScrolling(scrollTop > 5);
+      // Puedes dejar vacío este bloque de código si no necesitas ninguna lógica de scroll específica.
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -22,7 +19,7 @@ function NavBar() {
   }, []);
 
   return (
-    <Navbar expand="lg" className={`nav ${scrolling ? 'scrolled fixed-top' : ''}`}>
+    <Navbar expand="lg" className="nav fixed-top">
       <Container>
         <ScrollLink to="inicio" spy={true} smooth={true} duration={50}>
           <Navbar.Brand>
@@ -43,7 +40,7 @@ function NavBar() {
               <Nav.Link>Servicios</Nav.Link>
             </ScrollLink>
             <ScrollLink to="precios" spy={true} smooth={true} duration={50}>
-              <Nav.Link>precios</Nav.Link>
+              <Nav.Link>Precios</Nav.Link>
             </ScrollLink>
             <ScrollLink to="contacto" spy={true} smooth={true} duration={150}>
               <Nav.Link>Contacto</Nav.Link>
