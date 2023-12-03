@@ -7,6 +7,7 @@ import Servicios from './components/Servicios/Servicios';
 import Footer from './components/Footer/Footer';
 import FloatingChatButton from './components/FloatingChatButton/FloatingChatButton'; // Asegúrate de importar el componente
 import ChatApp from './components/ChatApp';
+import Precios from "./components/Precios/Precios";
 
 function App() {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <Header />
       <Servicios />
+      <Precios />
       <Footer />
       {/* Botón flotante para abrir y cerrar el chat */}
       <FloatingChatButton isChatOpen={isChatOpen} onToggleChat={handleToggleChat} />
