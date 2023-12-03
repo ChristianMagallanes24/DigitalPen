@@ -20,30 +20,3 @@ $color-primario: #ffffff;
     background-color: #fff;
     
 }
-.nav.scrolled {
-    background-color: #000818be;
-    transition: background-color .5s ease-in-out;
-   
-    .logo-img{
-        border-radius: 8px;
-        
-    }
-    .nav-link{
-        color: #fff;
-        font-family: 'Koulen', sans-serif;
-        
-    }
-    .active{
-        color: rgb(255, 255, 255);
-    }
-    .navbar-toggler{
-        border: none;
-        font-size: 14px;
-        background-color: #fff;
-        
-    }
-    .navbar-toggler-icon{
-        color: #fff;
-    }
-  }
-  
