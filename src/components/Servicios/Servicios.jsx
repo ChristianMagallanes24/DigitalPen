@@ -121,12 +121,12 @@ function Servicios() {
             </div>
             <div className='elegirnos-info'>
               <h3 className='elegirnos-titulo'>Transparencia y Comunicación Eficiente:</h3>
-              <p>Valoramos la transparencia en todas nuestras interacciones. Desde el inicio del proyecto hasta la entrega final, mantenemos líneas abiertas de comunicación constante. Usted estará informado en cada etapa del proceso de desarrollo, garantizando una colaboración fluida y una comprensión clara de cómo estamos trabajando para alcanzar sus metas.</p>
+              <p id='precios'>Valoramos la transparencia en todas nuestras interacciones. Desde el inicio del proyecto hasta la entrega final, mantenemos líneas abiertas de comunicación constante. Usted estará informado en cada etapa del proceso de desarrollo, garantizando una colaboración fluida y una comprensión clara de cómo estamos trabajando para alcanzar sus metas.</p>
             </div>
             </div>
 
           </div>
-          <h2 className='elegirnos-ctitulo'>precios<FaAngleDoubleDown /> </h2>
+          <h2  className='elegirnos-ctitulo'>precios<FaAngleDoubleDown /> </h2>
         </div>
       
 

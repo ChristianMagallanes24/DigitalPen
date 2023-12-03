@@ -25,7 +25,7 @@ const Precios = () => {
   ];
 
   return (
-    <div className="precios-card-container">
+    <div  className="precios-card-container">
         
       {planes.map((plan, index) => (
         

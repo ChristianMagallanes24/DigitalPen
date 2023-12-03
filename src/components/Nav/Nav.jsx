@@ -42,6 +42,9 @@ function NavBar() {
             <ScrollLink to="servicios" spy={true} smooth={true} duration={50}>
               <Nav.Link>Servicios</Nav.Link>
             </ScrollLink>
+            <ScrollLink to="precios" spy={true} smooth={true} duration={50}>
+              <Nav.Link>precios</Nav.Link>
+            </ScrollLink>
             <ScrollLink to="contacto" spy={true} smooth={true} duration={150}>
               <Nav.Link>Contacto</Nav.Link>
             </ScrollLink>
