@@ -25,8 +25,11 @@ const Precios = () => {
 
   return (
     <div className="precios-card-container">
+        
       {planes.map((plan, index) => (
+        
         <div key={index} className="precios-card">
+            
           <div className="precios-card-title">{plan.title}</div>
           <div className="precios-card-price">{plan.price}</div>
           <div className="precios-card-features">

@@ -126,7 +126,7 @@ function Servicios() {
             </div>
 
           </div>
-
+          <h2 className='elegirnos-ctitulo'>precios<FaAngleDoubleDown /> </h2>
         </div>
       
 
