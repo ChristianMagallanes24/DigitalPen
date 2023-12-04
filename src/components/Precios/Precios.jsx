@@ -3,6 +3,7 @@ import { useLanguage } from '../LanguageContext';
 
 const Precios = () => {
   const { obtenerTraduccion } = useLanguage();
+  const phoneNumber = '+59897068041';
 
   const planes = [
     {
@@ -13,9 +14,9 @@ const Precios = () => {
         obtenerTraduccion('⛔ Carrito de compras'),
         obtenerTraduccion('✅ Hosting'),
         obtenerTraduccion('✅ Dominio Personalizado'),
-        obtenerTraduccion('✅ 1 Pagina'),
+        obtenerTraduccion('✅ 1 Página'),
       ],
-      buttonLabel: obtenerTraduccion('Solicitar informacion'),
+      buttonLabel: obtenerTraduccion('Solicitar información'),
     },
     {
       title: obtenerTraduccion('Sitio web estático'),
@@ -25,9 +26,9 @@ const Precios = () => {
         obtenerTraduccion('⛔ Carrito de compras'),
         obtenerTraduccion('✅ Hosting'),
         obtenerTraduccion('✅ Dominio Personalizado'),
-        obtenerTraduccion('✅ 3 Paginas'),
+        obtenerTraduccion('✅ 3 Páginas'),
       ],
-      buttonLabel: obtenerTraduccion('Solicitar informacion'),
+      buttonLabel: obtenerTraduccion('Solicitar información'),
     },
     {
       title: obtenerTraduccion('Tienda online'),
@@ -35,14 +36,19 @@ const Precios = () => {
       features: [
         obtenerTraduccion('✅ Diseño Responsivo'),
         obtenerTraduccion('✅ Carrito de compras'),
-        obtenerTraduccion('✅ Catalogo de productos'),
-        obtenerTraduccion('✅Proceso de pago seguro'),
+        obtenerTraduccion('✅ Catálogo de productos'),
+        obtenerTraduccion('✅ Proceso de pago seguro'),
         obtenerTraduccion('✅ Hosting'),
         obtenerTraduccion('✅ Dominio Personalizado'),
       ],
-      buttonLabel: obtenerTraduccion('Solicitar informacion'),
+      buttonLabel: obtenerTraduccion('Solicitar información'),
     },
   ];
+
+  const handleWhatsAppClick = (plan) => {
+    const message = encodeURIComponent(`Buenas, quisiera obtener más información sobre el plan ${plan.title}. Precio: ${plan.price}. Características: ${plan.features.join(', ')}.`);
+    window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
+  };
 
   return (
     <div className="precios-card-container">
@@ -57,7 +63,10 @@ const Precios = () => {
               </div>
             ))}
           </div>
-          <button className="precios-button">{plan.buttonLabel}</button>
+          <button className="precios-button" onClick={() => handleWhatsAppClick(plan)}>
+            Solicitar información
+          </button>
+
         </div>
       ))}
     </div>

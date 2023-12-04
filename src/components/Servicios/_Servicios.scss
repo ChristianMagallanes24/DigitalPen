@@ -16,31 +16,33 @@
     padding: 5px;
 
     .card-servicio{
-       padding: 20px;
+      min-height: 300px;
        margin: 10px ;
        border-radius: 8px;
         background-color: #ffffff;
         box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
-       width: 50%;
+       flex-direction: column;
        filter: drop-shadow(0px 17px 25px #ffffff77);
-      .card-servicio{
-       scale: 20px;
-      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
         .servicios-informacion{
             text-align: center;
             align-items: center;
             display: flex;
+            max-width: 700px;
             color: #000000;
-            font-family: 'Cabin', sans-serif;
+            padding: 5px;
+            font-family: 'Poppins', sans-serif;
             .serv-titulo{
                 color: #3460ff;
-                font-family: 'Koulen', sans-serif;
+                font-family: 'Poppins', sans-serif;
                 
             }
            
         }
         .servicio-logo{
-            width: 30%;
+            
             height: 100%;
             .serv-logo{
                 height: 100px;
@@ -71,7 +73,7 @@
     padding: 5px;
     height: auto;
     
-    gap: 30px;
+    
     padding: 20px;
     
    .cardss{
@@ -98,10 +100,10 @@
             flex-direction: column;
             display: flex;
             color: #000000;
-            font-family: 'Cabin', sans-serif;
+            font-family: 'Poppins', sans-serif;
             .elegirnos-titulo{
                 color: #3460ff;
-                font-family: 'Koulen', sans-serif;
+                font-family: 'Poppins', sans-serif;
             }
         }
         

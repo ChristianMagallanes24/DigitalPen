@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { useLanguage } from '../LanguageContext';
 
 function Footer() {
+  const {  obtenerTraduccion } = useLanguage();
   const [formData, setFormData] = useState({
     name: '',
     lastName: '',
@@ -40,26 +42,31 @@ function Footer() {
     <>
       <div id='contacto' className="footer">
         <div>
-          <h3>Envíanos un correo y resolveremos todas tus dudas!</h3>
+          <h3>{obtenerTraduccion("Envíanos un correo y resolveremos todas tus dudas!")}</h3>
           <form className='form' onSubmit={handleSubmit}>
             <label>
-              Nombre:
+            {obtenerTraduccion("Nombre:")}
+              
               <input type="text" name="name" value={formData.name} onChange={handleChange} />
             </label>
             <label>
-              Apellido:
+            {obtenerTraduccion("Apellido:")}
+              
               <input className='input' type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
             </label>
             <label>
-              Correo Electrónico:
+            {obtenerTraduccion("Correo Electrónico:")}
+              
               <input type="email" name="email" value={formData.email} onChange={handleChange} />
             </label>
             <label>
-              WhatsApp:
+            {obtenerTraduccion("WhatsApp:")}
+              
               <input type="tel" name="whatsapp" value={formData.whatsapp} onChange={handleChange} />
             </label>
             <label>
-              Asunto:
+            {obtenerTraduccion("Asunto:")}
+              
               <textarea name="subject" value={formData.subject} onChange={handleChange}></textarea>
             </label>
             <button className='btn-enviar' type="submit">Enviar</button>

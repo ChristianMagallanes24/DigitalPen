@@ -1,4 +1,3 @@
-// NavBar.jsx
 import React, { useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import Container from 'react-bootstrap/Container';
@@ -34,9 +33,9 @@ function NavBar() {
                         />
                     </Navbar.Brand>
                 </ScrollLink>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                <Navbar.Toggle aria-controls="basic-navbar-nav "  />
+                <Navbar.Collapse id="basic-navbar-nav ">
+                    <Nav className="mx-auto">
                         <ScrollLink to="inicio" spy={true} smooth={true} duration={50}>
                             <Nav.Link>{obtenerTraduccion('Inicio')}</Nav.Link>
                         </ScrollLink>
@@ -49,9 +48,11 @@ function NavBar() {
                         <ScrollLink to="contacto" spy={true} smooth={true} duration={150}>
                             <Nav.Link>{obtenerTraduccion('Contacto')}</Nav.Link>
                         </ScrollLink>
-                        <button className="nav-link" onClick={cambiarIdioma}>
-                            {idioma === 'es' ? 'English' : 'Español'}
-                        </button>
+                        <div className="leng">
+                            <button className="nav-link ms-3" onClick={() => cambiarIdioma(idioma === 'es' ? 'en' : 'es')}>
+                                {idioma === 'es' ? '👉🌎 Español👈' : '👉🌎 English👈'}
+                            </button>
+                        </div>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -20,6 +20,7 @@ export const LanguageProvider = ({ children }) => {
   // Traducciones
   const traducciones = {
     es: {
+
       'Somos una agencia digital enfocada en potenciar tu negocio': 'Somos una agencia digital enfocada en potenciar tu negocio',
       'Nuestro objetivo principal es ayudarte a adaptarte a la era digital, lo cual implica mejorar y potenciar tu presencia online para alcanzar tus objetivos': 'Nuestro objetivo principal es ayudarte a adaptarte a la era digital, lo cual implica mejorar y potenciar tu presencia online para alcanzar tus objetivos',
       'Agendar una asesoría gratuita': 'Agendar una asesoría gratuita',
@@ -32,11 +33,12 @@ export const LanguageProvider = ({ children }) => {
       'Desarrollo de Aplicaciones Web Personalizadas': 'Desarrollo de Aplicaciones Web Personalizadas',
       'Web Responsive': 'Web Responsive',
       'Optimizacion de Rendimiento Web': 'Optimizacion de Rendimiento Web',
-      'Experiencia y Profesionalismo': 'Experiencia y Profesionalismo',
-      'Enfoque Personalizado': 'Enfoque Personalizado',
-      'Innovación Constante': 'Innovación Constante',
-      'Transparencia y Comunicación Eficiente': 'Transparencia y Comunicación Eficiente',
-
+      'Experiencia y Profesionalismo:': 'Experiencia y Profesionalismo',
+      'Enfoque Personalizado:': 'Enfoque Personalizado',
+      'Innovación Constante:': 'Innovación Constante',
+      'Transparencia y Comunicación Eficiente:': 'Transparencia y Comunicación Eficiente:',
+      'Seo': 'Seo',
+      'Maximiza el rendimiento de tu sitio web con nuestra optimización SEO. Aceleramos la velocidad de carga, mejoramos el tiempo de respuesta del servidor y optimizamos recursos. Desde la compresión de imágenes hasta técnicas avanzadas de almacenamiento en caché, trabajamos para ofrecer una experiencia de usuario rápida y eficiente. ¡Optimiza tu presencia en línea y destaca en los resultados de búsqueda!': 'Maximiza el rendimiento de tu sitio web con nuestra optimización SEO. Aceleramos la velocidad de carga, mejoramos el tiempo de respuesta del servidor y optimizamos recursos. Desde la compresión de imágenes hasta técnicas avanzadas de almacenamiento en caché, trabajamos para ofrecer una experiencia de usuario rápida y eficiente. ¡Optimiza tu presencia en línea y destaca en los resultados de búsqueda!',
       'Impulsa tu presencia en línea con nuestras aplicaciones web personalizadas. Desarrollamos soluciones a medida que se adaptan a tus necesidades específicas. Desde sistemas de gestión de contenido (CMS) hasta plataformas de comercio electrónico, nuestro equipo experto combina tecnologías de vanguardia con un diseño funcional para ofrecer aplicaciones web robustas, seguras y eficientes que potencian tu negocio.': 'Impulsa tu presencia en línea con nuestras aplicaciones web personalizadas. Desarrollamos soluciones a medida que se adaptan a tus necesidades específicas. Desde sistemas de gestión de contenido (CMS) hasta plataformas de comercio electrónico, nuestro equipo experto combina tecnologías de vanguardia con un diseño funcional para ofrecer aplicaciones web robustas, seguras y eficientes que potencian tu negocio.',
       
       'Transformamos tus ideas en experiencias digitales impactantes. Nuestro servicio de diseño web responsivo garantiza que tu sitio sea accesible y visualmente atractivo en cualquier dispositivo, desde computadoras de escritorio hasta smartphones y tabletas. Con un enfoque centrado en el usuario, creamos interfaces intuitivas y atractivas para mejorar la experiencia del usuario y maximizar la retención.': 'Transformamos tus ideas en experiencias digitales impactantes. Nuestro servicio de diseño web responsivo garantiza que tu sitio sea accesible y visualmente atractivo en cualquier dispositivo, desde computadoras de escritorio hasta smartphones y tabletas. Con un enfoque centrado en el usuario, creamos interfaces intuitivas y atractivas para mejorar la experiencia del usuario y maximizar la retención.',
@@ -72,6 +74,12 @@ export const LanguageProvider = ({ children }) => {
       '✅ Carrito de compras': '✅ Carrito de compras',
       '✅ Catalogo de productos': '✅ Catálogo de productos',
       '✅Proceso de pago seguro': '✅ Proceso de pago seguro',
+      'Envíanos un correo y resolveremos todas tus dudas!': 'Envíanos un correo y resolveremos todas tus dudas!',
+      'Nombre:' : 'Nombre:',
+      'Apellido:' : 'Apellido:',
+      'Correo Electrónico:' : 'Correo Electrónico:',
+      'WhatsApp:' : 'WhatsApp:',
+      'Asunto:' : 'Asunto:',
     },
     en: {
       'Somos una agencia digital enfocada en potenciar tu negocio': 'We are a digital agency focused on boosting your business',
@@ -86,10 +94,10 @@ export const LanguageProvider = ({ children }) => {
       'Desarrollo de Aplicaciones Web Personalizadas': 'Custom Web Application Development',
       'Web Responsive': 'Responsive Web Design',
       'Optimizacion de Rendimiento Web': 'Web Performance Optimization',
-      'Experiencia y Profesionalismo': 'Experience and Professionalism',
-      'Enfoque Personalizado': 'Personalized Approach',
-      'Innovación Constante': 'Constant Innovation',
-      'Transparencia y Comunicación Eficiente': 'Transparency and Efficient Communication',
+      'Experiencia y Profesionalismo:': 'Experience and Professionalism',
+      'Enfoque Personalizado:': 'Personalized Approach:',
+      'Innovación Constante:': 'Constant Innovation',
+      'Transparencia y Comunicación Eficiente:': 'Transparency and Efficient Communication',
       // Agrega más traducciones aquí según sea necesario
       'Impulsa tu presencia en línea con nuestras aplicaciones web personalizadas. Desarrollamos soluciones a medida que se adaptan a tus necesidades específicas. Desde sistemas de gestión de contenido (CMS) hasta plataformas de comercio electrónico, nuestro equipo experto combina tecnologías de vanguardia con un diseño funcional para ofrecer aplicaciones web robustas, seguras y eficientes que potencian tu negocio.': 'Boost your online presence with our custom web applications. We develop tailored solutions that adapt to your specific needs. From content management systems (CMS) to e-commerce platforms, our expert team combines cutting-edge technologies with functional design to deliver robust, secure and efficient web applications that power your business.',
 
@@ -101,7 +109,7 @@ export const LanguageProvider = ({ children }) => {
 
       'Nos destacamos por comprender las necesidades únicas de cada cliente. Adoptamos un enfoque personalizado en cada proyecto, asegurándonos de que nuestras soluciones se alineen perfectamente con los objetivos y valores de su empresa. Nuestra atención individualizada garantiza resultados que no solo cumplen, sino que superan las expectativas.': 'We excel at understanding the unique needs of each client. We take a customized approach to each project, ensuring our solutions align perfectly with your company',
 
-
+      'Maximiza el rendimiento de tu sitio web con nuestra optimización SEO. Aceleramos la velocidad de carga, mejoramos el tiempo de respuesta del servidor y optimizamos recursos. Desde la compresión de imágenes hasta técnicas avanzadas de almacenamiento en caché, trabajamos para ofrecer una experiencia de usuario rápida y eficiente. ¡Optimiza tu presencia en línea y destaca en los resultados de búsqueda!': 'Maximize the performance of your website with our SEO optimization. We accelerate loading speed, improve server response time and optimize resources. From image compression to advanced caching techniques, we work to deliver a fast and efficient user experience. Optimize your online presence and stand out in search results!',
 
       'Mantenemos un compromiso inquebrantable con la innovación. En un mundo digital en constante evolución, ofrecemos soluciones web vanguardistas y actualizadas. Desde tecnologías emergentes hasta las últimas tendencias de diseño, nos aseguramos de que su presencia en línea sea siempre moderna y efectiva.': 'We maintain an unwavering commitment to innovation. In a constantly evolving digital world, we offer cutting-edge and updated web solutions. From emerging technologies to the latest design trends, we ensure your online presence is always modern and effective.',
 
@@ -129,6 +137,13 @@ export const LanguageProvider = ({ children }) => {
  '✅ Carrito de compras': '✅ Shopping Cart',
  '✅ Catalogo de productos': '✅ Product Catalog',
  '✅Proceso de pago seguro': '✅ Secure Payment Process',
+ 'Envíanos un correo y resolveremos todas tus dudas!': 'Send us an email and we will answer all your questions!',
+ 'Nombre:' : 'Name:',
+ 'Apellido:' : 'Last name:',
+ 'Correo Electrónico:' : 'Email:',
+ 'WhatsApp:' : 'WhatsApp:',
+ 'Asunto:' : 'Subject:',
+ 'Seo': 'Seo',
     },
   };
 
