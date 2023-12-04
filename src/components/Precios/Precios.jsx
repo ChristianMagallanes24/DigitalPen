@@ -6,21 +6,21 @@ const Precios = () => {
   const planes = [
     {
       title: 'Landig page',
-      price: '$500',
-      features: ['✅ Diseño Responsivo', '✅ Hosting','✅ Dominio Personalizado', 'Hosting Incluido','✅ 1 Pagina'],
-      buttonLabel: 'Seleccionar',
+      price: '$500 USD',
+      features: ['✅ Diseño Responsivo','⛔ Carrito de compras', '✅ Hosting','✅ Dominio Personalizado', '✅ 1 Pagina'],
+      buttonLabel: 'Solicitar informacion',
     },
     {
-      title: 'Plan Estándar',
-      price: '$800',
-      features: ['✅ Diseño Responsivo','✅ Hosting','✅ Dominio Personalizado', 'Hosting Incluido','✅ 5 Paginas'],
-      buttonLabel: 'Seleccionar',
+      title: 'Sitio web estático',
+      price: '$800 USD',
+      features: ['✅ Diseño Responsivo','⛔ Carrito de compras','✅ Hosting','✅ Dominio Personalizado', '✅ 3 Paginas'],
+      buttonLabel: 'Solicitar informacion',
     },
     {
       title: 'Tienda online',
-      price: '$1200',
-      features: ['✅ Diseño Responsivo', '✅ Hosting','✅ Dominio Personalizado', 'Hosting Incluido','✅ Catalogo de productos'],
-      buttonLabel: 'Seleccionar',
+      price: '$1200 USD',
+      features: ['✅ Diseño Responsivo', '✅ Carrito de compras','✅ Catalogo de productos','✅Proceso de pago seguro', '✅ Hosting','✅ Dominio Personalizado'],
+      buttonLabel: 'Solicitar informacion',
     },
   ];
 

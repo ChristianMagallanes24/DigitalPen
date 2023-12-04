@@ -1,6 +1,8 @@
 // Footer.scss
 
 .footer {
+  display: flex;
+  justify-content: center;
     background-color: #000818;
     color: #000000;
     padding: 20px;
@@ -14,7 +16,7 @@
   
     .form {
      
-     
+     max-width: 800px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -78,6 +80,9 @@
 
 /* Estilos para pantallas de 609px o menos */
 @media screen and (max-width: 609px) {
+  .form{
+    width: 100%;
+  }
   textarea {
     width: 80%;
 
