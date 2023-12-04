@@ -20,7 +20,11 @@ export const LanguageProvider = ({ children }) => {
   // Traducciones
   const traducciones = {
     es: {
-
+      'Enviar' : 'Enviar' ,
+      'Por favor, inténtalo de nuevo más tarde.': 'Por favor, inténtalo de nuevo más tarde.',
+      '¡Oops! Algo salió mal.' :  '¡Oops! Algo salió mal.',
+      'Nos pondremos en contacto contigo pronto.': 'Nos pondremos en contacto contigo pronto.',
+      '¡Mensaje enviado correctamente!' : '¡Mensaje enviado correctamente!',
       'Somos una agencia digital enfocada en potenciar tu negocio': 'Somos una agencia digital enfocada en potenciar tu negocio',
       'Nuestro objetivo principal es ayudarte a adaptarte a la era digital, lo cual implica mejorar y potenciar tu presencia online para alcanzar tus objetivos': 'Nuestro objetivo principal es ayudarte a adaptarte a la era digital, lo cual implica mejorar y potenciar tu presencia online para alcanzar tus objetivos',
       'Agendar una asesoría gratuita': 'Agendar una asesoría gratuita',
@@ -144,6 +148,11 @@ export const LanguageProvider = ({ children }) => {
  'WhatsApp:' : 'WhatsApp:',
  'Asunto:' : 'Subject:',
  'Seo': 'Seo',
+ '¡Mensaje enviado correctamente!' : 'Message sent succesfully!',
+ 'Nos pondremos en contacto contigo pronto.': 'We will contact you soon',
+ '¡Oops! Algo salió mal.' : 'Oops! Something went wrong.',
+ 'Por favor, inténtalo de nuevo más tarde.' : 'Please try again later.',
+ 'Enviar' : 'Send' ,
     },
   };
 
