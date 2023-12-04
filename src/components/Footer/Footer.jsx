@@ -24,10 +24,10 @@ function Footer() {
     try {
       // Envía los datos del formulario por correo electrónico
       await emailjs.send(
-        'desarrolloweb',  // Reemplaza con tu Service ID
-        'template_5gwkug9',  // Reemplaza con tu Template ID
+        'desarrolloweb',  
+        'template_5gwkug9',  
         formData,
-        'YRbXL0fyz2xjYW-ln'  // Reemplaza con tu User ID
+        'YRbXL0fyz2xjYW-ln'  
       );
 
       // Limpia el formulario después del envío

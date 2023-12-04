@@ -11,7 +11,7 @@ function NavBar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            // Puedes dejar vacío este bloque de código si no necesitas ninguna lógica de scroll específica.
+            
         };
 
         window.addEventListener('scroll', handleScroll);

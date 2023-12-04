@@ -56,7 +56,7 @@ export const LanguageProvider = ({ children }) => {
       'Mantenemos un compromiso inquebrantable con la innovación. En un mundo digital en constante evolución, ofrecemos soluciones web vanguardistas y actualizadas. Desde tecnologías emergentes hasta las últimas tendencias de diseño, nos aseguramos de que su presencia en línea sea siempre moderna y efectiva.': 'Mantenemos un compromiso inquebrantable con la innovación. En un mundo digital en constante evolución, ofrecemos soluciones web vanguardistas y actualizadas. Desde tecnologías emergentes hasta las últimas tendencias de diseño, nos aseguramos de que su presencia en línea sea siempre moderna y efectiva.',
 
       'Valoramos la transparencia en todas nuestras interacciones. Desde el inicio del proyecto hasta la entrega final, mantenemos líneas abiertas de comunicación constante. Usted estará informado en cada etapa del proceso de desarrollo, garantizando una colaboración fluida y una comprensión clara de cómo estamos trabajando para alcanzar sus metas.': 'Valoramos la transparencia en todas nuestras interacciones. Desde el inicio del proyecto hasta la entrega final, mantenemos líneas abiertas de comunicación constante. Usted estará informado en cada etapa del proceso de desarrollo, garantizando una colaboración fluida y una comprensión clara de cómo estamos trabajando para alcanzar sus metas.',
-      // Agrega más traducciones aquí según sea necesario
+      
       'Diseño de Landing Page': 'Diseño de Landing Page',
       'Landig page': 'Landing page',
       'price': 'Precio',
@@ -102,7 +102,7 @@ export const LanguageProvider = ({ children }) => {
       'Enfoque Personalizado:': 'Personalized Approach:',
       'Innovación Constante:': 'Constant Innovation',
       'Transparencia y Comunicación Eficiente:': 'Transparency and Efficient Communication',
-      // Agrega más traducciones aquí según sea necesario
+      
       'Impulsa tu presencia en línea con nuestras aplicaciones web personalizadas. Desarrollamos soluciones a medida que se adaptan a tus necesidades específicas. Desde sistemas de gestión de contenido (CMS) hasta plataformas de comercio electrónico, nuestro equipo experto combina tecnologías de vanguardia con un diseño funcional para ofrecer aplicaciones web robustas, seguras y eficientes que potencian tu negocio.': 'Boost your online presence with our custom web applications. We develop tailored solutions that adapt to your specific needs. From content management systems (CMS) to e-commerce platforms, our expert team combines cutting-edge technologies with functional design to deliver robust, secure and efficient web applications that power your business.',
 
       'Transformamos tus ideas en experiencias digitales impactantes. Nuestro servicio de diseño web responsivo garantiza que tu sitio sea accesible y visualmente atractivo en cualquier dispositivo, desde computadoras de escritorio hasta smartphones y tabletas. Con un enfoque centrado en el usuario, creamos interfaces intuitivas y atractivas para mejorar la experiencia del usuario y maximizar la retención.': 'We transform your ideas into impactful digital experiences. Our responsive web design service ensures your site is accessible and visually appealing on any device, from desktop computers to smartphones and tablets. With a user-centric approach, we create intuitive and engaging interfaces to improve user experience and maximize retention.',
