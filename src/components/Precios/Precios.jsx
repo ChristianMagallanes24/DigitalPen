@@ -1,36 +1,53 @@
-// Precios.js
-
 import React from 'react';
+import { useLanguage } from '../LanguageContext';
 
 const Precios = () => {
+  const { obtenerTraduccion } = useLanguage();
+
   const planes = [
     {
-      title: 'Landig page',
+      title: obtenerTraduccion('Landig page'),
       price: '$500 USD',
-      features: ['✅ Diseño Responsivo','⛔ Carrito de compras', '✅ Hosting','✅ Dominio Personalizado', '✅ 1 Pagina'],
-      buttonLabel: 'Solicitar informacion',
+      features: [
+        obtenerTraduccion('✅ Diseño Responsivo'),
+        obtenerTraduccion('⛔ Carrito de compras'),
+        obtenerTraduccion('✅ Hosting'),
+        obtenerTraduccion('✅ Dominio Personalizado'),
+        obtenerTraduccion('✅ 1 Pagina'),
+      ],
+      buttonLabel: obtenerTraduccion('Solicitar informacion'),
     },
     {
-      title: 'Sitio web estático',
+      title: obtenerTraduccion('Sitio web estático'),
       price: '$800 USD',
-      features: ['✅ Diseño Responsivo','⛔ Carrito de compras','✅ Hosting','✅ Dominio Personalizado', '✅ 3 Paginas'],
-      buttonLabel: 'Solicitar informacion',
+      features: [
+        obtenerTraduccion('✅ Diseño Responsivo'),
+        obtenerTraduccion('⛔ Carrito de compras'),
+        obtenerTraduccion('✅ Hosting'),
+        obtenerTraduccion('✅ Dominio Personalizado'),
+        obtenerTraduccion('✅ 3 Paginas'),
+      ],
+      buttonLabel: obtenerTraduccion('Solicitar informacion'),
     },
     {
-      title: 'Tienda online',
+      title: obtenerTraduccion('Tienda online'),
       price: '$1200 USD',
-      features: ['✅ Diseño Responsivo', '✅ Carrito de compras','✅ Catalogo de productos','✅Proceso de pago seguro', '✅ Hosting','✅ Dominio Personalizado'],
-      buttonLabel: 'Solicitar informacion',
+      features: [
+        obtenerTraduccion('✅ Diseño Responsivo'),
+        obtenerTraduccion('✅ Carrito de compras'),
+        obtenerTraduccion('✅ Catalogo de productos'),
+        obtenerTraduccion('✅Proceso de pago seguro'),
+        obtenerTraduccion('✅ Hosting'),
+        obtenerTraduccion('✅ Dominio Personalizado'),
+      ],
+      buttonLabel: obtenerTraduccion('Solicitar informacion'),
     },
   ];
 
   return (
-    <div  className="precios-card-container">
-        
+    <div className="precios-card-container">
       {planes.map((plan, index) => (
-        
         <div key={index} className="precios-card">
-            
           <div className="precios-card-title">{plan.title}</div>
           <div className="precios-card-price">{plan.price}</div>
           <div className="precios-card-features">
@@ -39,10 +56,8 @@ const Precios = () => {
                 {feature}
               </div>
             ))}
-         
-          
-            <button className="precios-button">{plan.buttonLabel}</button>
-            </div>
+          </div>
+          <button className="precios-button">{plan.buttonLabel}</button>
         </div>
       ))}
     </div>
