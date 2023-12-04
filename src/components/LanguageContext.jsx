@@ -66,12 +66,12 @@ export const LanguageProvider = ({ children }) => {
       '⛔ Carrito de compras': '⛔ Carrito de compras',
       '✅ Hosting': '✅ Hosting',
       '✅ Dominio Personalizado': '✅ Dominio Personalizado',
-      '✅ 1 Pagina': '✅ 1 Página',
+      '✅ 1 Página': '✅ 1 Página',
       'Solicitar informacion': 'Solicitar información',
   
       'Sitio web estático': 'Sitio web estático',
       '$800 USD': '$800 USD',
-      '✅ 3 Paginas': '✅ 3 Páginas',
+      '✅ 3 Páginas': '✅ 3 Páginas',
   
       'Tienda online': 'Tienda online',
       '$1200 USD': '$1200 USD',
@@ -129,12 +129,12 @@ export const LanguageProvider = ({ children }) => {
  '⛔ Carrito de compras': '⛔ Shopping Cart',
  '✅ Hosting': '✅ Hosting',
  '✅ Dominio Personalizado': '✅ Custom Domain',
- '✅ 1 Pagina': '✅ 1 Page',
+ '✅ 1 Página': '✅ 1 Page',
  'Solicitar informacion': 'Request Information',
 
  'Sitio web estático': 'Static Website',
  '$800 USD': '$800 USD',
- '✅ 3 Paginas': '✅ 3 Pages',
+ '✅ 3 Páginas': '✅ 3 pages',
 
  'Tienda online': 'Online Store',
  '$1200 USD': '$1200 USD',
