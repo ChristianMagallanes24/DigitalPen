@@ -6,6 +6,7 @@ import exp from '../../assets/experiencia.gif';
 import enfoc from '../../assets/cuestionario.gif';
 import inov from '../../assets/motivacion.gif';
 import ojo from '../../assets/ojo.gif';
+import nav from '../../assets/navegador-web.gif';
 import test from '../../assets/mockup.png';
 import testEnglish from '../../assets/mockupenglish.png';
 
@@ -82,7 +83,7 @@ function Servicios() {
            
             <div>
             <div className='servicio-logo'>
-              <img className="serv-logo" src={opt} alt="Diseño web" />
+              <img className="serv-logo" src={nav} alt="Diseño web" />
             </div>
               <h3 className='serv-titulo'>{obtenerTraduccion("Seo")}</h3>
               <p>{obtenerTraduccion("Maximiza el rendimiento de tu sitio web con nuestra optimización SEO. Aceleramos la velocidad de carga, mejoramos el tiempo de respuesta del servidor y optimizamos recursos. Desde la compresión de imágenes hasta técnicas avanzadas de almacenamiento en caché, trabajamos para ofrecer una experiencia de usuario rápida y eficiente. ¡Optimiza tu presencia en línea y destaca en los resultados de búsqueda!")}
