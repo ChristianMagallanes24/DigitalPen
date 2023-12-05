@@ -1,32 +1,35 @@
-.servicios-titulo{
+.servicios-titulo {
     padding: 25px;
     text-align: center;
     font-family: 'Cabin', sans-serif;
-    .titulo{
+
+    .titulo {
         font-size: 34px;
     }
 }
-.servicios-container{
+
+.servicios-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     background-color: #000818;
-    
+
     padding: 5px;
 
-    .card-servicio{
-      min-height: 300px;
-       margin: 10px ;
-       border-radius: 8px;
+    .card-servicio {
+        min-height: 300px;
+        margin: 10px;
+        border-radius: 8px;
         background-color: rgb(255, 255, 255);
-        box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
-       flex-direction: column;
-       filter: drop-shadow(0px 17px 25px #ffffff77);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-        .servicios-informacion{
+        box-shadow: 10px 10px 24px -6px rgba(0, 0, 0, 0.75);
+        flex-direction: column;
+        filter: drop-shadow(0px 17px 25px #ffffff77);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .servicios-informacion {
             text-align: center;
             align-items: center;
             display: flex;
@@ -35,24 +38,28 @@
             color: #000000;
             padding: 5px;
             font-family: 'Poppins', sans-serif;
-            .serv-titulo{
+
+            .serv-titulo {
                 color: #3460ff;
                 font-family: 'Poppins', sans-serif;
-                
+
             }
-           
+
         }
-        .servicio-logo{
-            
+
+        .servicio-logo {
+
             height: 100%;
-            .serv-logo{
+
+            .serv-logo {
                 height: 100px;
             }
         }
     }
-   
+
 }
-.elegirnos-ctitulo{
+
+.elegirnos-ctitulo {
     color: #ffffff;
     font-family: 'Koulen', sans-serif;
     letter-spacing: 5px;
@@ -63,184 +70,194 @@
     margin: 0;
 }
 
-.elegirnos-container{
-    
+.elegirnos-container {
+
     display: flex;
     text-align: center;
     flex-direction: column;
-    
+
     align-items: center;
     background-color: #000818;
     padding: 5px;
     height: auto;
-    
-    
+
+
     padding: 20px;
-    
-   .cardss{
-  display: flex;
-  
-  align-items: center;
-   
-    
-    .card{
+
+    .cardss {
         display: flex;
+
         align-items: center;
-        justify-content: center;
-        padding: 20px;
-       margin: 10px ;
-       border-radius: 8px;
-        background-color: #ffffff;
-        box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
-       width: 50%;
-       height: 100%;
-       filter: drop-shadow(0px 17px 25px #ffffff77);
-        .elegirnos-info{
-            text-align: center;
-            align-items: center;
-            flex-direction: column;
-            display: flex;
-            color: #000000;
-            font-family: 'Poppins', sans-serif;
-           max-width: 400px;
-           min-height: 300px;
-            .elegirnos-titulo{
-                color: #3460ff;
-                font-family: 'Poppins', sans-serif;
-            }
-        }
-        
-           .elegirnos-img{
-            height: 100px;
-            border-radius: 50%;
-           }
-        }
-    }
-    
-   }
-   
-    
 
-.test{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $color-primario;
-    .test-img{
-        max-width: 100%;
-        height: 100%;
-    }
-  
-}
 
-  /* Estilos para pantallas de 609px o menos */
-@media screen and (max-width: 1200px) {
-    .servicios-container{
-        .card-servicio{
-            margin: 20px;
-           width: 100%;
-           
-             .servicios-informacion{
-                flex-direction: column;
-                 text-align: center;
-                 width: 100%;
-             }
-         }
-     
-    }
-    .cards-container{
-        flex-wrap: wrap;
-    }
-  }
-
-    /* Estilos para pantallas de 609px o menos */
-@media screen and (max-width: 868px) {
-    .elegirnos-container{
-    
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        
-        align-items: center;
-        background-color: #000818;
-        padding: 5px;
-        height: auto;
-        
-        gap: 30px;
-        padding: 20px;
-        .elegirnos-ctitulo{
-            color: #fff;
-            
-            letter-spacing: 5px;
-            font-size: 60px;
-            text-align: center;
-            padding: 20px;
-        }
-       .cardss{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-       
-        
-        .card{
+        .card {
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 20px;
-           margin: 10px ;
-           border-radius: 8px;
+            margin: 10px;
+            border-radius: 8px;
             background-color: #ffffff;
-            box-shadow: 10px 10px 24px -6px rgba(0,0,0,0.75);
-           width: 100%;
-           height: 100%;
-           filter: drop-shadow(0px 17px 25px #ffffff77);
-            .elegirnos-info{
+            box-shadow: 10px 10px 24px -6px rgba(0, 0, 0, 0.75);
+            width: 50%;
+            height: 100%;
+            filter: drop-shadow(0px 17px 25px #ffffff77);
+
+            .elegirnos-info {
                 text-align: center;
                 align-items: center;
                 flex-direction: column;
                 display: flex;
                 color: #000000;
-                
-                .elegirnos-titulo{
+                font-family: 'Poppins', sans-serif;
+                max-width: 400px;
+                min-height: 300px;
+
+                .elegirnos-titulo {
                     color: #3460ff;
-                   
+                    font-family: 'Poppins', sans-serif;
                 }
             }
-            
-               .elegirnos-img{
+
+            .elegirnos-img {
                 height: 100px;
-               }
+                border-radius: 50%;
             }
         }
-       }
-  }
+    }
 
-   /* Estilos para pantallas de 503px o menos */
-@media screen and (max-width: 503px) {
-    .servicios-container{
-        .card-servicio{
-           width: 100%;
-           
-             .servicios-informacion{
-                 text-align: center;
-                 width: 100%;
-             }
-         }
-     
+}
+
+
+
+.test {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primario;
+
+    .test-img {
+        max-width: 100%;
+        height: 100%;
     }
-    .cards-container{
-        flex-wrap: wrap;
-       .cardss{
-        .card{
-            height: 200px;
+
+}
+
+/* Estilos para pantallas de 609px o menos */
+@media screen and (max-width: 1200px) {
+    .servicios-container {
+        .card-servicio {
+            margin: 20px;
+            width: 100%;
+
+            .servicios-informacion {
+                flex-direction: column;
+                text-align: center;
+                width: 100%;
+            }
         }
-       }
+
     }
-    .elegirnos-container{
-        .elegirnos-ctitulo{
+
+    .cards-container {
+        flex-wrap: wrap;
+    }
+}
+
+/* Estilos para pantallas de 609px o menos */
+@media screen and (max-width: 868px) {
+    .elegirnos-container {
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+        align-items: center;
+        background-color: #000818;
+        padding: 5px;
+        height: auto;
+
+        gap: 30px;
+        padding: 20px;
+
+        .elegirnos-ctitulo {
+            color: #fff;
+
+            letter-spacing: 5px;
+            font-size: 60px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cardss {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .card {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                margin: 10px;
+                border-radius: 8px;
+                background-color: #ffffff;
+                box-shadow: 10px 10px 24px -6px rgba(0, 0, 0, 0.75);
+                width: 100%;
+                height: 100%;
+                filter: drop-shadow(0px 17px 25px #ffffff77);
+
+                .elegirnos-info {
+                    text-align: center;
+                    align-items: center;
+                    flex-direction: column;
+                    display: flex;
+                    color: #000000;
+
+                    .elegirnos-titulo {
+                        color: #3460ff;
+
+                    }
+                }
+
+                .elegirnos-img {
+                    height: 100px;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para pantallas de 503px o menos */
+@media screen and (max-width: 503px) {
+    .servicios-container {
+        .card-servicio {
+            width: 100%;
+
+            .servicios-informacion {
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+    }
+
+    .cards-container {
+        flex-wrap: wrap;
+
+        .cardss {
+            .card {
+                height: 200px;
+            }
+        }
+    }
+
+    .elegirnos-container {
+        .elegirnos-ctitulo {
             color: #ffffff;
-            
+
             letter-spacing: 5px;
             font-size: 40px;
             text-align: start;
@@ -249,32 +266,35 @@
             margin: 0;
         }
     }
-  }
-  
-       /* Estilos para pantallas de 377px o menos */
+}
+
+/* Estilos para pantallas de 377px o menos */
 @media screen and (max-width: 415px) {
-   h3{
-    font-size: 20px;
-   }
-    .servicios-container{
-        .card-servicio{
-           width: 100%;
-           
-             .servicios-informacion{
-                 text-align: center;
-                 width: 100%;
-             }
-         }
-     
+    h3 {
+        font-size: 20px;
     }
-    .cards-container{
-        flex-wrap: wrap;
-       .cardss{
-        height: 300px;
-        .card{
-            height: 100px;
+
+    .servicios-container {
+        .card-servicio {
+            width: 100%;
+
+            .servicios-informacion {
+                text-align: center;
+                width: 100%;
+            }
         }
-       }
+
     }
-  }
-  
+
+    .cards-container {
+        flex-wrap: wrap;
+
+        .cardss {
+            height: 300px;
+
+            .card {
+                height: 100px;
+            }
+        }
+    }
+}

@@ -20,7 +20,7 @@ function Footer() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     // Check if required fields are empty
     if (!formData.name || !formData.lastName || !formData.email || !formData.whatsapp || !formData.subject) {
       // Show an error message with SweetAlert
@@ -31,7 +31,7 @@ function Footer() {
       });
       return; // Exit the function if any required field is empty
     }
-  
+
     try {
       // Construir el mensaje del correo electrónico con los datos del formulario
       const mensajeCorreo = `
@@ -42,7 +42,7 @@ function Footer() {
         WhatsApp: ${formData.whatsapp}
         Asunto: ${formData.subject}
       `;
-  
+
       // Envía los datos del formulario por correo electrónico
       await emailjs.send(
         'desarrolloweb',
@@ -50,7 +50,7 @@ function Footer() {
         { message: mensajeCorreo },
         'YRbXL0fyz2xjYW-ln'
       );
-  
+
       // Limpia el formulario después del envío
       setFormData({
         name: '',
@@ -59,7 +59,7 @@ function Footer() {
         whatsapp: '',
         subject: '',
       });
-  
+
       // Muestra un mensaje de éxito con SweetAlert
       Swal.fire({
         icon: 'success',
@@ -75,7 +75,7 @@ function Footer() {
       });
     }
   };
-  
+
 
   return (
     <>

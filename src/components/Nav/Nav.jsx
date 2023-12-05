@@ -34,27 +34,31 @@ function NavBar() {
                     </Navbar.Brand>
                 </ScrollLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav "  />
-                <Navbar.Collapse id="basic-navbar-nav ">
-                    <Nav className="mx-auto">
-                        <ScrollLink to="inicio" spy={true} smooth={true} duration={50}>
-                            <Nav.Link>{obtenerTraduccion('Inicio')}</Nav.Link>
-                        </ScrollLink>
-                        <ScrollLink to="servicios" spy={true} smooth={true} duration={50}>
-                            <Nav.Link>{obtenerTraduccion('Servicios')}</Nav.Link>
-                        </ScrollLink>
-                        <ScrollLink to="precios" spy={true} smooth={true} duration={50}>
-                            <Nav.Link>{obtenerTraduccion('Precios')}</Nav.Link>
-                        </ScrollLink>
-                        <ScrollLink to="contacto" spy={true} smooth={true} duration={150}>
-                            <Nav.Link>{obtenerTraduccion('Contacto')}</Nav.Link>
-                        </ScrollLink>
-                        <div className="leng">
-                            <button className="nav-link ms-3" onClick={() => cambiarIdioma(idioma === 'es' ? 'en' : 'es')}>
-                                {idioma === 'es' ? '👉🌎 Español👈' : '👉🌎 English👈'}
-                            </button>
-                        </div>
-                    </Nav>
-                </Navbar.Collapse>
+                <Navbar.Collapse id="basic-navbar-nav" className="text-center">
+  <Nav className="ms-auto ">
+    <ScrollLink to="inicio" spy={true} smooth={true} duration={50}>
+      <Nav.Link>{obtenerTraduccion('Inicio')}</Nav.Link>
+    </ScrollLink>
+    <ScrollLink to="servicios" spy={true} smooth={true} duration={50}>
+      <Nav.Link>{obtenerTraduccion('Servicios')}</Nav.Link>
+    </ScrollLink>
+    <ScrollLink to="precios" spy={true} smooth={true} duration={50}>
+      <Nav.Link>{obtenerTraduccion('Precios')}</Nav.Link>
+    </ScrollLink>
+    <ScrollLink to="contacto" spy={true} smooth={true} duration={150}>
+      <Nav.Link>{obtenerTraduccion('Contacto')}</Nav.Link>
+    </ScrollLink>
+    <div className="leng">
+      <button
+        className="nav-link"
+        onClick={() => cambiarIdioma(idioma === 'es' ? 'en' : 'es')}
+      >
+        {idioma === 'es' ? '👉🌎 Español👈' : '👉🌎 English👈'}
+      </button>
+    </div>
+  </Nav>
+</Navbar.Collapse>
+
             </Container>
         </Navbar>
     );

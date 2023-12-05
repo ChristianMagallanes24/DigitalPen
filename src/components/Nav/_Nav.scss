@@ -6,6 +6,7 @@ $color-primario: #ffffff;
     cursor: pointer;
 }
 .nav{
+   
     background-color: #000818;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -25,12 +26,20 @@ $color-primario: #ffffff;
       
         
     }
-  
+  .leng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    .navbar-collapse{
+        
+        align-items: center;
+        
+    }
+  }
 }
 
 
 
 
-@media screen and (max-width: 990px) {
-   
-  }
