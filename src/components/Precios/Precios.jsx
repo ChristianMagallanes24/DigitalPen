@@ -8,7 +8,7 @@ const Precios = () => {
   const planes = [
     {
       title: obtenerTraduccion('Landig page'),
-      price: '$500 USD',
+      price: '$300 USD',
       features: [
         obtenerTraduccion('✅ Diseño Responsivo'),
         obtenerTraduccion('⛔ Carrito de compras'),
