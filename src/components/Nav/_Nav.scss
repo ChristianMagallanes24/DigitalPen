@@ -1,45 +1,94 @@
-$color-primario: #ffffff;
-.logo-img{
-    width: 80px;
-    border-radius: 8px;
-    border: solid;
-    cursor: pointer;
-}
-.nav{
-   
-    background-color: #000818;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+.navbar {
+  background-color: #000818;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: #000818;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  
+  font-size: 20px;
+  z-index: 1;
+  top: 0;
+  .logo {
+    color: #fff;
+    .logo-img{
+      width: 80px;
+      border-radius: 8px;
+      border: solid;
+      cursor: pointer;
+  }
+  }
+
+  .nav_items {
+    .btn-nav {
+      background: #000818;
+      color: #fff;
+      border: none;
     
-    font-size: 20px;
-    .nav-link{
+
+      a {
+        text-decoration: none;
         color: #fff;
+        padding: 10px;
+        position: relative;
         &:hover{
-            color: #346fe6;
-            filter: drop-shadow(0px 7px 25px #ffffff);
-        }
+          color: #346fe6;
+          filter: drop-shadow(0px 7px 25px #ffffff);
+      }
+      }
+  
     }
-    .navbar-toggler{
-        color: #000000;
-        font-size: 14px;
-        background-color: #fff;
-      
-        
-    }
-  .leng{
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  .container{
-    .navbar-collapse{
-        
-        align-items: center;
-        
-    }
+  .nav_toggle{
+    display: none;
   }
 }
 
+/* Estilos para pantallas de 503px o menos */
+@media screen and (max-width: 700px) {
+  .nav_items{
+    position: absolute;
+    top: 60px;
+    padding: 10px;
+    left: 0;
+    
+    background: #000818;       
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+        
+    transform: translateX(-100%);
+    transition: 0.0s ease all;
+}
+.nav_items.open{
+    transform: translateX(0) !important
+}
+.nav_toggle{
+    display: flex !important;
+    flex-direction: column;                
+    margin: 15px;
+}
+.nav_toggle span{
+    width: 30px;
+    height: 4px;
+    background: white;
+    margin-bottom: 5px;
+    border-radius: 2px;             
+    transform-origin: 5px 0px;
+    transition: all 0.2s linear;
+}
+.nav_toggle.open > span{
+    transform: rotate(45deg) translate(0px, 0px);
+}
+.nav_toggle.open > span:nth-child(2){
+    display: none;
+}
+.nav_toggle.open > span:nth-child(3){
+    transform: rotate(-45deg) translate(-5px, 1px);
+}
 
-
-
+}

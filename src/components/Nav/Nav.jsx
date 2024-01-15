@@ -1,67 +1,38 @@
-import React, { useEffect } from 'react';
-import { Link as ScrollLink } from 'react-scroll';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from "../../assets/logo.png";
+import React, { useState } from "react";
+import miLogo from "../../assets/logo.png";
 import { useLanguage } from '../LanguageContext';
 
-function NavBar() {
-    const { cambiarIdioma, idioma, obtenerTraduccion } = useLanguage();
+import "./_Nav.scss";
 
-    useEffect(() => {
-        const handleScroll = () => {
-            
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-    return (
-        <Navbar expand="lg" className="nav fixed-top">
-            <Container>
-                <ScrollLink to="inicio" spy={true} smooth={true} duration={50}>
-                    <Navbar.Brand>
-                        <img
-                            src={logo}
-                            alt="DigitalPen Logo"
-                            className="logo-img"
-                        />
-                    </Navbar.Brand>
-                </ScrollLink>
-                <Navbar.Toggle aria-controls="basic-navbar-nav "  />
-                <Navbar.Collapse id="basic-navbar-nav" className="text-center">
-  <Nav className="ms-auto ">
-    <ScrollLink to="inicio" spy={true} smooth={true} duration={50}>
-      <Nav.Link>{obtenerTraduccion('Inicio')}</Nav.Link>
-    </ScrollLink>
-    <ScrollLink to="servicios" spy={true} smooth={true} duration={50}>
-      <Nav.Link>{obtenerTraduccion('Servicios')}</Nav.Link>
-    </ScrollLink>
-    <ScrollLink to="precios" spy={true} smooth={true} duration={50}>
-      <Nav.Link>{obtenerTraduccion('Precios')}</Nav.Link>
-    </ScrollLink>
-    <ScrollLink to="contacto" spy={true} smooth={true} duration={150}>
-      <Nav.Link>{obtenerTraduccion('Contacto')}</Nav.Link>
-    </ScrollLink>
-    <div className="leng">
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const { cambiarIdioma, idioma, obtenerTraduccion } = useLanguage();
+  return (
+    <div className="navbar">
+      <div className="logo">
+        <img className="logo-img" src={miLogo} alt="DigitalPen Logo" />
+      </div>
+      <div className={`nav_items ${isOpen && "open"}`}>
+        <button className="btn-nav"><a href="#inicio">{obtenerTraduccion('Inicio')}</a></button>
+        <button className="btn-nav"><a href="#servicios">{obtenerTraduccion('Servicios')}</a></button>
+        <button className="btn-nav"><a href="#precios">{obtenerTraduccion('Precios')}</a></button>
+        <button className="btn-nav"><a href="#contacto">{obtenerTraduccion('Contacto')}</a></button>
       <button
-        className="nav-link"
+        className="btn-nav"
         onClick={() => cambiarIdioma(idioma === 'es' ? 'en' : 'es')}
       >
         {idioma === 'es' ? '👉🌎 Español👈' : '👉🌎 English👈'}
       </button>
     </div>
-  </Nav>
-</Navbar.Collapse>
+      
 
-            </Container>
-        </Navbar>
-    );
+      <div className={`nav_toggle ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </div>
+    </div>
+  )
 }
-
-export default NavBar;
+export default Navbar;
